@@ -180,13 +180,22 @@ img {
 #parent .generic-leaf-container > h2,
 #parent .generic-leaf-container > h2,
 #generic-container .generic-leaf-container > h2,
-.generic-header,
-.generic-description {
-    font-family: var(--pauta-font);
-    margin-bottom: 1.2rem;
+.generic-header {
+    font-family: var(--quicksand-font);
+    margin-bottom: 1.0rem;
     font-size: 2rem;
     color: black;
     text-transform: capitalize;
+}
+
+.generic-description {
+    font-family: var(--quicksand-font);
+    margin-bottom: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 0.9rem;
+    color: black;
+    text-transform: none;
+    text-align: justify;
 }
 .blog-header,
 .blog-description {
@@ -318,10 +327,6 @@ img {
 #generic-container .generic-container-container ul li {
     font-family: var(--lato-font);
     padding: .5rem 0;
-}
-
-.generic-description {
-    font-size: 1.2rem;   
 }
 
 /* For smaller devices */

@@ -36,7 +36,7 @@ const datas = Object.entries(map);
 const levelBValue  = urlParams.get('levelB');    
 const levelAValue  = urlParams.get('levelA');  
 
-var headerOutput = "Meraki - essence of yourself."
+var headerOutput = "WIP."
 let output  = '';
 var countriesDisplayed = new Set()
 for(let key of datas) 

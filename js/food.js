@@ -4,6 +4,10 @@ const hashMap= {
 		"Cuisine": "Italiano",
         "Images": [
 			"media/food/italiano/1.jpeg",
+            "media/food/italiano/2.jpeg",
+            "media/food/italiano/3.jpeg",
+            "media/food/italiano/4.jpeg",
+            "media/food/italiano/5.jpeg",
 		]
 	}
 };
@@ -18,13 +22,9 @@ var level0Href  = '<a href="' + parentPage + '">Food</a>';
 var levelAHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
 var levelBHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
 var headerOutput;
-if (levelAValue != null && levelBValue != null)
+if (levelAValue != null)
 {
-    headerOutput = level0Href + " --> " + levelAHref + " --> " + levelBHref;
-}
-else if(levelAValue != null)
-{
-    headerOutput = level0Href + " --> " + levelAHref;
+    headerOutput = level0Href + " <-> " + levelAHref;
 }
 else
 {
